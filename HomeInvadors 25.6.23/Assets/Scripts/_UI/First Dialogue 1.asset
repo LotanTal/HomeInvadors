@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fec48d8178c4224ebc967868d8fa12d, type: 3}
+  m_Name: First Dialogue 1
+  m_EditorClassIdentifier: 
+  characterName: Pigeon
+  normalSentences:
+  - sentence: Ok Racc! Let's Do this!
+    playerAnimation: Sit
+    npcAnimation: Jump
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: DialogueCam
+  - sentence: 'The door is Open and this house is FULL of FOOD! '
+    playerAnimation: Sit
+    npcAnimation: Sit
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: DialogueCam
+  - sentence: We just need to be quiet to not wake up THE CAT...
+    playerAnimation: Sit
+    npcAnimation: Sit
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: VcamCat
+  - sentence: ...and get to the KITCHEN...
+    playerAnimation: Sit
+    npcAnimation: Sit
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: VcamKitchen
+  - sentence: ...steal that delicious APPLE...
+    playerAnimation: Sit
+    npcAnimation: Sit
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: VcamApple
+  - sentence: AND GET OUT
+    playerAnimation: Sit
+    npcAnimation: Sit
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: VcamWindow
+  - sentence: well..that's it!
+    playerAnimation: Sit
+    npcAnimation: Sit
+    enemyAnimation: Sit
+    enemyEYEAnimation: Eyes_Sleep
+    soundName: 
+    virtualCameraName: DialogueCam
+  sentencesAfterTalk: []
